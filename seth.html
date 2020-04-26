@@ -17,9 +17,8 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 
 <!-- Favicons -->
-<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/candle_1.jpg">
 <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" type="text/css" media="all" />
-<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 <link rel="stylesheet" href="css/supersized.css" type="text/css" media="all" />
 <link rel="stylesheet" href="style.css" type="text/css" media="all" />
 
@@ -29,37 +28,30 @@
 <body>
 
 
-<div class="solid-color" style="background:#AAAA;"></div>
-
-<div class="main">
-
-<header class="container">
-
- <div class="row">
- <div class="col-md-12">
  
  <h1 class="logo-title alignc">Welcome Seth</h1>
  
 <!-- Countdown dashboard start -->
-		
- 
- </div><!--.col-md-12-->
  
  </div><!--.row-->
  
 </header> 
 
-
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+</style>
 
  </div><!--.col-md-6-->
  
  <div class="col-sm-6 col-md-6">
 <!-- Display the countdown timer in an element -->
+<!-- Display the countdown timer in an element -->
 <p id="demo"></p>
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 12, 2020 22:40:09").getTime();
+var countDownDate = new Date("Apr 26, 2021 10:23:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -75,46 +67,21 @@ var x = setInterval(function() {
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-<p id="countdown1" style="font-size:64px;font-family:arial" class="w3-center">
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML = days + " : " + hours + " : "
+  + minutes + " : " + seconds + " ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
+	top.location.href="expired.html";
   }
 }, 1000);
 </script>
  </p>
-
- </div><!--.col-md-6-->
-
-</div><!--.row-->
- 
- </div><!--.col-md-6-->
-
- 
- </div><!--.row-->
-
- </section>
- 
-<footer class="container"> 
-
-<div class="row">
-
-<div class="col-md-12">
-
- 
-    
-    
-</div><!--.col-md-12-->
-
-</div><!--.row-->
-   </footer>
+<p> At this time, use the link</p>
   
 </div><!--.main-->
 

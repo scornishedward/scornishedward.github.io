@@ -38,7 +38,7 @@
  <div class="row">
  <div class="col-md-12">
  
- <h1 class="logo-title alignc">Welcome Seth</h1>
+ <h1 class="logo-title alignc">Welcome Drew</h1>
  
 <!-- Countdown dashboard start -->
 		
@@ -47,8 +47,8 @@
  
  </div><!--.row-->
  
-</header> 
 
+</header> 
 
 
  </div><!--.col-md-6-->
@@ -59,7 +59,7 @@
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 12, 2020 22:40:09").getTime();
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -75,12 +75,10 @@ var x = setInterval(function() {
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-<p id="countdown1" style="font-size:64px;font-family:arial" class="w3-center">
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML = days + " Days   " + hours + " Hours   "
+  + minutes + " Minutes   " + seconds + " Seconds   ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
@@ -89,7 +87,6 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
- </p>
 
  </div><!--.col-md-6-->
 
