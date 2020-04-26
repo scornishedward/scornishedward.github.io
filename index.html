@@ -13,10 +13,16 @@
 
 function TheLogin() {
 
-var password = 'Seth is a friend of Nick';
+var password_1 = 'Seth is a friend of Nick';
 
-if (this.document.login.pass.value == password) {
+if (this.document.login.pass.value == password_1) {
   top.location.href="seth.html";
+}
+
+var password_2 = 'Drew is a friend of Nick';
+
+if (this.document.login.pass.value == password_2) {
+  top.location.href="drew.html";
 }
 else {
   window.alert("Incorrect password, 1 attempt remaining.");
